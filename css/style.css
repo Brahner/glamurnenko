@@ -1,0 +1,32 @@
+@import url('./generic.css');
+@import url('./media.css');
+
+@font-face {
+	font-family: 'Oranienbaum';
+	src: url('../fonts/Oranienbaum.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--black-bg-color: #000000;
+	--white-bg-color: #FFFFFF;
+	--pink-bg-color: #FF0C3A;
+	--green-bg-color: #D8F0D8;
+	--orange-bg-color: #FFD100;
+	--yellow-bg-color: #FFF000;
+	--orange-border-color: #FDC300;
+	--grey-border-color: #E8E8E8;
+	--active-border-color: #BFBFBF;
+
+	--black-text-color: #333333;
+	--white-text-color: #FFFFFF;
+	}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.font-serif{
+	font-family: 'Oranienbaum', serif;
+}
