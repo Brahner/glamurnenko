@@ -21,10 +21,13 @@
 
 	--black-text-color: #333333;
 	--white-text-color: #FFFFFF;
+	--golden-text-color: #BDA16F;
+	--hover-text-color: #28AAE1;
 	}
 
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: var(--black-bg-color);
 }
 
 .font-serif{
