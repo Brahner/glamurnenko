@@ -220,7 +220,7 @@
 
 .main__table_simbol{
 	color: var(--black-text-color);
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .books__wrap{
@@ -297,6 +297,21 @@
 	color: var(--white-text-color);
 	border: 1px solid var(--pink-bg-color);
 	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card__btn:before {
+	font-family: FontAwesome;
+	content:"\f07a";
+	position: absolute;
+	top: 7px;
+	left: -30px;
+	transition: all 200ms ease;
+}
+
+.card__btn:hover:before {
+	left: 25px;
 }
 
 .description{
