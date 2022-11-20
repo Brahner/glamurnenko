@@ -10,6 +10,7 @@
 
 :root {
 	--black-bg-color: #000000;
+	--box-shadow-color: rgba(0,0,0, .2);
 	--white-bg-color: #FFFFFF;
 	--pink-bg-color: #FF0C3A;
 	--green-bg-color: #D8F0D8;
@@ -32,6 +33,10 @@ body{
 
 .font-serif{
 	font-family: 'Oranienbaum', serif;
+}
+
+.container__color{
+	background-color: var(--white-bg-color);
 }
 
 .width--4{

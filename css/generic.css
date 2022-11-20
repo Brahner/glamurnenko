@@ -108,13 +108,8 @@
 
 }
 
-.main__wrap{
-	background-color: var(--white-bg-color);
-}
-
 .main__header{
 	padding: 65px 120px 20px;
-	background-color: var(--white-bg-color);
 	position: relative;
 	overflow: hidden;
 }
@@ -136,11 +131,10 @@
 	top: 50px;
 	color: var(--white-text-color);
 	background-color: var(--pink-bg-color);
-	box-shadow: 0 2px 10px var(--black-bg-color);
+	box-shadow: 0 10px 20px var(--box-shadow-color);
 }
 
 .main__img{
-	background-color: var(--white-bg-color);
 }
 
 .main__img img{
@@ -154,7 +148,6 @@
 }
 
 .main__desc{
-	background-color: var(--white-bg-color);
 }
 
 .main__desc_title{
@@ -226,11 +219,75 @@
 	font-size: 1.5rem;
 }
 
-.main__books{
+.books__wrap{
 	margin: 20px 0 60px;
 }
 
-.main__books_img{
+.books__img{
 	width: 100%;
 	height: auto;
+}
+
+.services{
+
+}
+
+.services__title{
+	margin-bottom: 30px;
+}
+
+.card{
+	border: 2px solid var(--grey-border-color);
+	padding: 30px;
+	height: 465px;
+}
+
+.card:hover{
+	border-color: var(--active-border-color);
+	box-shadow: 0 0 20px var(--box-shadow-color);
+}
+
+.card__title{
+	font-size: 1.5rem;
+	margin-bottom: 25px;
+}
+
+.card__title-span{
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.card__subtitle{
+	margin-bottom: 15px;
+}
+
+.card__old-price{
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.card__old-price:before {
+	border-bottom: 1px solid var(--pink-bg-color);
+	position: absolute;
+	content: "";
+	top: 41%;
+	left: 36%;
+	width: 27%;
+	transform: rotate(-12deg);
+}
+
+
+
+.card__price{
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+}
+
+
+.card__btn{
+	padding: 10px 50px;
+	background-color: var(--pink-bg-color);
+	color: var(--white-text-color);
+	border: 1px solid var(--pink-bg-color);
+	border-radius: 5px;
 }
