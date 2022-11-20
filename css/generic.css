@@ -325,3 +325,35 @@
 	width: 60%;
 	font-size: 1.5rem;
 }
+
+.footer{
+	padding-bottom: 40px;
+}
+
+.scroll{
+	margin: 30px 0 40px;
+}
+
+.scroll__btn{
+	border: 1px solid var(--white-bg-color);
+	background-color: var(--black-bg-color);
+	color: var(--white-text-color);
+	padding: 8px 10px;
+}
+
+.scroll__btn:hover{
+	box-shadow: 0px 0px 10px var(--hover-text-color)
+}
+
+.footer__wrap{
+	color: var(--white-text-color);
+}
+
+.footer__link{
+	color: var(--white-text-color);
+}
+
+.footer__link:hover{
+	color: var(--hover-text-color);
+	text-decoration: none;
+}
