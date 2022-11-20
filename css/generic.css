@@ -108,10 +108,9 @@
 
 }
 
-/* .main__container{
-	max-width: 640px;
-	margin: 0 auto;
-} */
+.main__wrap{
+	background-color: var(--white-bg-color);
+}
 
 .main__header{
 	padding: 65px 120px 20px;
@@ -173,6 +172,57 @@
 	padding-top: 35px;
 }
 
-.white{
-	background-color: var(--white-bg-color);
+.main__table{
+	width: 100%;
+	background-color: var(--yellow-bg-color);
+	border: 2px solid var(--orange-border-color);
+	border-collapse: collapse;
 }
+
+.main__table_th{
+	background-color: var(--orange-bg-color);
+	border: 2px solid var(--orange-border-color);
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+.main__table_td{
+	border: 2px solid var(--orange-border-color);
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 0.7rem;
+	vertical-align: top;
+}
+
+.main__table_btn{
+	background-color: var(--black-bg-color);
+	color: var(--white-text-color);
+	border: 1px solid var(--black-bg-color);
+	margin-top: 20px;
+	padding: 5px 10px;
+}
+
+.main__table_btn:hover{
+	background-color: var(--yellow-bg-color);
+	color: var(--black-text-color);
+}
+
+
+.main__table_rate{
+	background-color: var(--yellow-bg-color);
+	border: 1px solid var(--black-bg-color);
+	color: var(--black-text-color);
+	font-size: 0.8rem;
+	margin-top: 20px;
+}
+
+.main__table_rate:hover{
+	background-color: var(--black-bg-color);
+	color: var(--white-text-color);
+}
+
+.main__table_simbol{
+	font-size: 1.5rem;
+}
+

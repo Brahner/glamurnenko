@@ -33,3 +33,11 @@ body{
 .font-serif{
 	font-family: 'Oranienbaum', serif;
 }
+
+.width--4{
+	width: 40%;
+}
+
+.font-size--6{
+	font-size: 0.6rem;
+}
