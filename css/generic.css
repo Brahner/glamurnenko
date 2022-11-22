@@ -81,25 +81,25 @@
 }
 
 .promo{
-	padding-top: 40px;
-	background: url(../img/bg-main.png);
+
+}
+
+.promo__wrap{
+	/* margin-top: 170px; */
+	background: url(../img/bg-main.png) no-repeat center / cover;
 	height: 660px;
 }
 
-.logo{
-	margin-top: 170px;
-}
-
-.logo__img{
+.promo__logo{
 
 }
 
-.logo__title{
+.promo__title{
 	color: var(--white-text-color);
 	font-size: 1.2rem;
 }
 
-.logo__subtitle{
+.promo__subtitle{
 	text-decoration: underline;
 	color: var(--golden-text-color);
 }
@@ -163,7 +163,7 @@
 
 .main__desc_item{
 	list-style-type: none;
-	padding-top: 35px;
+	margin-top: 35px;
 }
 
 .main__table{
@@ -273,6 +273,7 @@
 	color: var(--black-text-color);
 	position: relative;
 	margin-bottom: 5px;
+	font-size: 1.2rem;
 }
 
 .card__old-price:before {
@@ -288,7 +289,7 @@
 .card__price{
 	color: var(--black-text-color);
 	margin-bottom: 20px;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 }
 
 .card__btn{

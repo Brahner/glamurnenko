@@ -1,0 +1,163 @@
+@media (max-width: 991px){
+	.promo__wrap{
+		box-shadow: 0 0 40px 20px var(--black-bg-color) inset;
+	}
+
+	.main__header{
+		padding: 65px 100px 20px;
+	}
+
+	.books__wrap {
+		margin: 60px 0 60px;
+	}
+
+	.card{
+		margin: 20px 0;
+	}
+
+	.description__text{
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 767px){
+	.main__header{
+		padding: 140px 20px 20px;
+	}
+
+	.promo__wrap{
+		box-shadow: 0 0 20px 15px var(--black-bg-color) inset;
+	}
+
+	.main__desc_item{
+		margin-top: 20px;
+	}
+
+	.description__text{
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 575px){
+	.main__header_title{
+		font-size: 2rem;
+	}
+
+	.main__desc_title{
+		font-size: 2rem;
+	}
+
+	.main__table_td{
+		vertical-align: middle;
+		padding: 5px 7px;
+	}
+
+	.main__table_th{
+		padding: 5px 7px;
+	}
+
+	.main__table_td:first-child{
+		background-color: var(--orange-bg-color);
+	}
+
+	.table_box{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 10%;
+	}
+
+	.main__table_rate{
+		padding: 5px 10px;
+		font-size: 1.2rem;
+		margin-top: 0;
+	}
+
+	.main__table_btn{
+		margin-top: 0;
+	}
+
+	.description__title{
+		font-size: 2rem;
+	}
+
+	.description__img{
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.description__text{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 425px) {
+	.promo__wrap{
+		background-position-x: 55%;
+	}
+
+	.main__header_title{
+		font-size: 1.5rem;
+	}
+
+	.main__header_desc{
+		font-size: 1rem;
+	}
+
+	.main__desc_title{
+		font-size: 1.5rem;
+	}
+
+	.services__title{
+		font-size: 1.5rem;
+	}
+
+	.card{
+		padding: 15px;
+		min-height: 300px;
+		height: 300px;
+	}
+
+	.card__title{
+		font-size: 1.2rem;
+		margin-bottom: 0;
+	}
+
+	.card__title-span{
+		font-size: 0.8rem;
+	}
+
+	.card__subtitle{
+		font-size: 0.8rem;
+		margin-bottom: 0;
+	}
+
+	.card__old-price{
+		font-size: 1rem;
+	}
+
+	.card__price{
+		font-size: 1.5rem;
+		margin-bottom: 0;
+	}
+
+	.card__btn{
+		padding: 0;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.card__btn:before{
+		top: -2px;
+	}
+
+	.card__btn:hover:before {
+		left: 1vw;
+	}
+
+	.description__title{
+		font-size: 1.5rem;
+	}
+
+	
+}
