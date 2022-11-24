@@ -1,5 +1,5 @@
 @media (max-width: 991px){
-	.header--stiky{
+	.header--fixed{
 		padding: 10px 0;
 	}
 
@@ -109,6 +109,10 @@
 }
 
 @media (max-width: 425px) {
+	.header__logo{
+		width: 40%;
+	}
+
 	.promo__wrap{
 		background-position-x: 55%;
 	}
@@ -175,6 +179,4 @@
 	.description__title{
 		font-size: 1.5rem;
 	}
-
-	
 }

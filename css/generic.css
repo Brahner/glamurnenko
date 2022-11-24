@@ -1,3 +1,5 @@
+/*! header */
+
 .header{
 	width: 100%;
 	position: absolute;
@@ -20,14 +22,12 @@
 	width: 25%;
 }
 
-.header__link{
-
-}
-
 .header__link img{
 	width: 100%;
 	height: auto;
 }
+
+/*! burger */
 
 .burger{
 	width: 26px;
@@ -40,11 +40,7 @@
 	background-color: var(--white-bg-color); 
 }
 
-.menu{
-
-}
-
-
+/*! header menu */
 
 .menu__items{
 	margin-bottom: 0;
@@ -66,9 +62,7 @@
 	color: var(--hover-text-color);
 }
 
-.social{
-
-}
+/*! header social */
 
 .social__item{
 	width: 25px;
@@ -95,13 +89,7 @@
 	background-position: 0 25px;
 }
 
-.social__link{
-
-}
-
-.contacts{
-
-}
+/*! header social */
 
 .contacts__item{
 	text-align: end;
@@ -116,6 +104,8 @@
 	text-decoration: none;
 	color: var(--hover-text-color);
 }
+
+/*! sidebar */
 
 .sidebar{
 	position: fixed;
@@ -174,18 +164,11 @@
 	padding-top: 15px;
 }
 
-.promo{
-
-}
+/*! promo */
 
 .promo__wrap{
-	/* margin-top: 170px; */
 	background: url(../img/bg-main.png) no-repeat center / cover;
 	height: 660px;
-}
-
-.promo__logo{
-
 }
 
 .promo__title{
@@ -198,9 +181,7 @@
 	color: var(--golden-text-color);
 }
 
-.main{
-
-}
+/*! main */
 
 .main__header{
 	padding: 65px 120px 20px;
@@ -230,9 +211,6 @@
 	box-shadow: 0 10px 20px var(--box-shadow-color);
 }
 
-.main__img{
-}
-
 .main__img img{
 	width: 100%;
 	height: auto;
@@ -241,9 +219,6 @@
 .main__img-desc{
 	padding: 10px;
 	color: var(--black-text-color);
-}
-
-.main__desc{
 }
 
 .main__desc_title{
@@ -317,6 +292,8 @@
 	font-size: 1rem;
 }
 
+/*! books img */
+
 .books__wrap{
 	margin: 20px 0 60px;
 }
@@ -326,14 +303,12 @@
 	height: auto;
 }
 
-.services{
-
-}
-
 .services__title{
 	color: var(--black-text-color);
 	margin-bottom: 30px;
 }
+
+/*! card */
 
 .card{
 	border: 2px solid var(--grey-border-color);
@@ -409,9 +384,7 @@
 	left: 25px;
 }
 
-.description{
-
-}
+/*! description */
 
 .description__title{
 	margin-top: 100px;
@@ -435,6 +408,8 @@
 	width: 60%;
 	font-size: 1.5rem;
 }
+
+/*! footer */
 
 .footer{
 	padding-bottom: 40px;
