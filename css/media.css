@@ -1,4 +1,8 @@
 @media (max-width: 991px){
+	.header--stiky{
+		padding: 10px 0;
+	}
+
 	.promo__wrap{
 		box-shadow: 0 0 40px 20px var(--black-bg-color) inset;
 	}

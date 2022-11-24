@@ -5,6 +5,14 @@
 	z-index: 2;
 }
 
+.header--stiky{
+	position: sticky;
+	top: 0;
+	padding: 5px 0;
+	background-color: var(--black-bg-color);
+	border-bottom: 1px solid var(--white-bg-color);
+}
+
 .header__logo{
 	width: 25%;
 }
@@ -27,64 +35,6 @@
 	height: 2px;
 	width: 100%;
 	background-color: var(--white-bg-color); 
-}
-
-.sidebar{
-	position: fixed;
-	background-color: rgba(0, 0, 0, .5);
-	transition: background-color .3s;
-	height: 100%;
-	width: 0;
-	z-index: -1;
-	top: 0;
-	left: 0;
-}
-
-.sidebar--active{
-	width: 100%;
-	z-index: 99;
-}
-
-.sidebar__container{
-	position: fixed;
-	right: -200%;
-	top: 20px;
-	width: 380px;
-	height: 70%;
-	background-color: var(--black-bg-color);
-	border: 1px solid var(--white-bg-color);
-	transition: right 0.15s ease-out 0s;
-	padding: 15px 20px;
-	border-radius: 5px;
-}
-
-.sidebar__container--active{
-	right: 2%;
-	transition: right 0.3s ease-out 0.1s;
-}
-
-.sidebar__header{
-	border-bottom: 1px solid var(--white-bg-color);
-	padding-bottom: 15px;
-}
-
-.sidebar__logo{
-	width: 70%;
-	margin: 0 auto;
-}
-
-.sidebar__logo img{
-	width: 100%;
-	height: auto;
-}
-
-.sidebar__menu{
-	height: 700px;
-}
-
-.sidebar__footer{
-	border-top: 1px solid var(--white-bg-color);
-	padding-top: 15px;
 }
 
 .menu{
@@ -162,6 +112,64 @@
 .contacts__tel:hover{
 	text-decoration: none;
 	color: var(--hover-text-color);
+}
+
+.sidebar{
+	position: fixed;
+	background-color: rgba(0, 0, 0, .5);
+	transition: background-color .3s;
+	height: 100%;
+	width: 0;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.sidebar--active{
+	width: 100%;
+	z-index: 99;
+}
+
+.sidebar__container{
+	position: fixed;
+	right: -200%;
+	top: 20px;
+	width: 380px;
+	height: 70%;
+	background-color: var(--black-bg-color);
+	border: 1px solid var(--white-bg-color);
+	transition: right 0.15s ease-out 0s;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.sidebar__container--active{
+	right: 2%;
+	transition: right 0.3s ease-out 0.1s;
+}
+
+.sidebar__header{
+	border-bottom: 1px solid var(--white-bg-color);
+	padding-bottom: 15px;
+}
+
+.sidebar__logo{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.sidebar__logo img{
+	width: 100%;
+	height: auto;
+}
+
+.sidebar__menu{
+	height: 700px;
+}
+
+.sidebar__footer{
+	border-top: 1px solid var(--white-bg-color);
+	padding-top: 15px;
 }
 
 .promo{
