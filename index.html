@@ -231,18 +231,18 @@
 							</tr>
 							<tr>
 								<th class="main__table_th text-left width--4 d-sm-table-cell d-none">Цена</th>
-								<th class="main__table_th text-uppercase">7 990 р</th>
-								<th class="main__table_th text-uppercase">9 990 р</th>
-								<th class="main__table_th text-uppercase">24 990 р</th>
+								<th class="main__table_th text-uppercase"><span class="price--theory">7990 ₽</span></th>
+								<th class="main__table_th text-uppercase"><span class="price--practice">9990 ₽</span></th>
+								<th class="main__table_th text-uppercase"><span class="price--vip">24990 ₽</span></th>
 							</tr>
 							<tr>
 								<td class="main__table_td d-sm-table-cell d-none"></td>
 								<td colspan="3" class="main__table_td">
 									<div class="table_box">
-										<button class="main__table_rate">₽</button>
-										<button class="main__table_rate">₴</button>
-										<button class="main__table_rate">$</button>
-										<button class="main__table_rate">€</button>
+										<button class="main__table_rate" id="rub">₽</button>
+										<button class="main__table_rate" id="uah">₴</button>
+										<button class="main__table_rate" id="usd">$</button>
+										<button class="main__table_rate" id="eur">€</button>
 									</div>
 								</td>
 							</tr>
@@ -406,5 +406,6 @@
 	</footer>
 
 <script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>
