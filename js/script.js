@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		let elementID = 'main';
 		const elementOffsetTop = document.getElementById(elementID).offsetTop;
 	
-		if ( currentScroll > elementOffsetTop && header.className != 'header--stiky'){
-			header.classList.add('header--stiky');
+		if ( currentScroll > elementOffsetTop && header.className != 'header--fixed'){
+			header.classList.add('header--fixed');
 		} else {
-			header.classList.remove('header--stiky');
+			header.classList.remove('header--fixed');
 		}
 	};
 	window.addEventListener('scroll', showHeaderScroll);
