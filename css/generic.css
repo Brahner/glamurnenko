@@ -6,11 +6,12 @@
 }
 
 .header--stiky{
-	position: sticky;
+	position: fixed;
 	top: 0;
 	padding: 5px 0;
 	background-color: var(--black-bg-color);
 	border-bottom: 1px solid var(--white-bg-color);
+	z-index: 98;
 }
 
 .header__logo{
