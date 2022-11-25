@@ -1,6 +1,11 @@
 @media (max-width: 991px){
+	.header{
+		top: 20px;
+	}
+
 	.header--fixed{
 		padding: 10px 0;
+		top: 0;
 	}
 
 	.promo__wrap{

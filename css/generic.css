@@ -125,7 +125,7 @@
 .sidebar__container{
 	position: fixed;
 	right: -200%;
-	top: 5%;
+	top: 6%;
 	width: 380px;
 	height: 70%;
 	background-color: var(--black-bg-color);
