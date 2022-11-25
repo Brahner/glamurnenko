@@ -26,6 +26,10 @@
 	--hover-text-color: #28AAE1;
 	}
 
+html{
+	font-size: 16px;
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--black-bg-color);
